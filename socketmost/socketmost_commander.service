@@ -1,0 +1,15 @@
+[Unit]
+Description=Python socketmost client
+PartOf=socketmost.service
+After=socketmost.service
+Required=socketmost.service
+
+[Service]
+ExecStart=/home/pi/config/socketmost/.venv/bin/python3 /home/pi/config/socketmost/socketmost_commander.py --start --log-level DEBUG
+Restart=always
+ExecStop=/home/pi/config/socketmost/.venv/bin/python3 /home/pi/config/socketmost/socketmost_commander.py --stop
+WorkingDirectory=/home/pi/config/socketmost
+User=root
+
+[Install]
+WantedBy=default.target

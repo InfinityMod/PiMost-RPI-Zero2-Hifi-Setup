@@ -1,0 +1,21 @@
+[Unit]
+Description=Jack2 Controller
+Documentation=Jack Startup Commander
+Requires=sys-devices-platform-soc-3f980000.usb-gadget.0-sound-card0-controlC0.device
+Requires=sys-devices-platform-soc-soc:sound-sound-card1-controlC1.device
+After=sys-devices-platform-soc-3f980000.usb-gadget.0-sound-card0-controlC0.device
+After=sys-devices-platform-soc-soc:sound-sound-card1-controlC1.device
+
+[Service]
+# see man systemd.service
+LimitRTPRIO=infinity
+LimitMEMLOCK=infinity
+Type=simple
+ExecStartPre=/bin/sleep 1
+ExecStart=/home/pi/config/jack/systemd/startJackd.sh start
+RemainAfterExit=true
+ExecStop=/home/pi/config/jack/systemd/startJackd.sh stop
+StandardOutput=journal
+
+[Install]
+WantedBy=multi-user.target 

@@ -1,0 +1,70 @@
+description: null
+devices:
+  adjust_period: null
+  capture:
+    channels: 2
+    device: default
+    type: Jack
+  capture_samplerate: 44100
+  chunksize: 512
+  enable_rate_adjust: false
+  playback:
+    channels: 2
+    device: default
+    type: Jack
+  queuelimit: null
+  rate_measure_interval: null
+  resampler:
+    profile: Balanced
+    type: AsyncSinc
+  samplerate: 44100
+  silence_threshold: null
+  silence_timeout: null
+  stop_on_rate_change: null
+  target_level: null
+  volume_ramp_time: null
+filters:
+  Korrektur1_1:
+    description: null
+    parameters:
+      freq: 252
+      gain: 5.6
+      q: 2.054
+      type: Peaking
+    type: Biquad
+  Korrektur1_2:
+    description: null
+    parameters:
+      freq: 163
+      gain: 12
+      q: 2.941
+      type: Peaking
+    type: Biquad
+  Korrektur1_3:
+    description: null
+    parameters:
+      freq: 400
+      gain: 9.3
+      q: 2
+      type: Peaking
+    type: Biquad
+mixers: {}
+pipeline:
+- bypassed: null
+  channel: 0
+  description: null
+  names:
+  - Korrektur1_1
+  - Korrektur1_2
+  - Korrektur1_3
+  type: Filter
+- bypassed: null
+  channel: 1
+  description: null
+  names:
+  - Korrektur1_1
+  - Korrektur1_2
+  - Korrektur1_3
+  type: Filter
+processors: {}
+title: test

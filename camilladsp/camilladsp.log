@@ -1,0 +1,24 @@
+2023-12-20 11:10:00.121277 INFO  [src/bin.rs:683] CamillaDSP version 2.0.0
+2023-12-20 11:10:00.121677 INFO  [src/bin.rs:684] Running on linux, arm
+2023-12-20 11:10:00.373113 WARN  [src/audiodevice.rs:517] Needless 1:1 sample rate conversion active. Not needed since enable_rate_adjust=False
+2023-12-20 11:10:00.387818 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] Cannot connect to server socket err = No such file or directory
+2023-12-20 11:10:00.388298 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] Cannot connect to server request channel
+2023-12-20 11:10:00.390521 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] jack server is not running or cannot be started
+2023-12-20 11:10:00.395873 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2023-12-20 11:10:00.396018 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2023-12-20 11:10:00.398899 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] Cannot connect to server socket err = No such file or directory
+2023-12-20 11:10:00.399044 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] Cannot connect to server request channel
+2023-12-20 11:10:00.401969 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] jack server is not running or cannot be started
+2023-12-20 11:10:00.402738 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2023-12-20 11:10:00.402815 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2023-12-20 11:10:00.402995 ERROR [src/bin.rs:286] Playback error: Could not get default playback device
+2023-12-20 11:10:00.755927 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] Cannot connect to server socket err = No such file or directory
+2023-12-20 11:10:00.756324 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] Cannot connect to server request channel
+2023-12-20 11:10:00.759612 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] jack server is not running or cannot be started
+2023-12-20 11:10:00.760369 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2023-12-20 11:10:00.760471 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2023-12-20 11:10:00.763372 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] Cannot connect to server socket err = No such file or directory
+2023-12-20 11:10:00.763483 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] Cannot connect to server request channel
+2023-12-20 11:10:00.765693 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] jack server is not running or cannot be started
+2023-12-20 11:10:00.766986 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2023-12-20 11:10:00.767103 ERROR [/root/.cargo/registry/src/index.crates.io-1cd66030c949c28d/jack-0.8.4/src/logging.rs:6] JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock

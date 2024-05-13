@@ -1,0 +1,14 @@
+---
+config_path: /home/pi/config/camilladsp/configs/MOSTPI.yml
+mute:
+  - false
+  - false
+  - false
+  - false
+  - false
+volume:
+  - -14.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0

@@ -1,0 +1,12 @@
+[Unit]
+Description=socketmost
+After=network.target
+
+[Service]
+ExecStart=node /home/pi/SocketMost/examples/server.js
+Restart=always
+WorkingDirectory=/home/pi/SocketMost/examples
+User=root
+
+[Install]
+WantedBy=default.target
